@@ -2,8 +2,6 @@
 
 ---
 
-Next.js Boilerplate Starter using Hono for API framework and Lucia for authentication. Also uses Hono's Zod to OpenAPI package to generate OpenAPI schema available at `/api/swagger.json` and the editor / playground at `/api/scalar`.
-
 Uses:
 
 -   [Tailwind CSS](https://tailwindcss.com/) for styling
@@ -24,6 +22,11 @@ Uses:
 pnpm db:push
 pnpm dev
 ```
+
+## Note
+
+Hono's Zod to OpenAPI package generates OpenAPI schema at `/api/swagger.json` and playground at `/api/scalar`.
+
 
 ## Env Vars
 
